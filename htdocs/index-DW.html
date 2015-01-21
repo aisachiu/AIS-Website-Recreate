@@ -11,6 +11,7 @@
 	width:1108px;
 	height:180px;
 	z-index:1;
+	background-color: rgb(102,124,150);
 }
 #apDiv2 {
 	position:absolute;
@@ -19,6 +20,7 @@
 	width:1110px;
 	height:385px;
 	z-index:2;
+	background-image: url(../images/smileSlide.jpg);
 }
 #apDiv3 {
 	position:absolute;
@@ -83,6 +85,41 @@
 	top: 0px;
 	right: 0px;
 }
+#apDiv1 #topNavDiv #topNavList {
+	list-style-type: none;
+}
+#apDiv1 #topNavDiv #topNavList li {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#apDiv1 #topNavDiv {
+	position: absolute;
+	top: 8px;
+	right: 811px;
+	width: 248px;
+}
+#SlideCaption {
+	position:absolute;
+	left:7px;
+	top:397px;
+	width:601px;
+	height:60px;
+	z-index:9;
+	background-color: rgba(61,80,120,0.6);
+	color: #FFF;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#SlideCaption h2 {
+	color: #FFF;
+	font-weight: normal;
+}
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 </style>
 </head>
 
@@ -90,7 +127,7 @@
 <div id="apDiv1">
 
   <div id="logoDiv"><img src="AIS-Logo.gif" width="441" height="134"  /></div><div id="topNavDiv">
-  <ul><li>Calendar</li>
+  <ul id="topNavList"><li>Calendar</li>
     <li>News</li>
   <li>Log in</li>
   </ul></div>
@@ -102,5 +139,8 @@
 <div id="calendarAP"></div>
 <div id="apDiv6"></div>
 <div id="apDiv7"></div>
+<div id="SlideCaption">
+  <h2>Early Childhood to Highschool</h2>
+</div>
 </body>
 </html>
