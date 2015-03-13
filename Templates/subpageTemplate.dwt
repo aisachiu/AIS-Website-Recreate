@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+#logoDiv {
+	position:absolute;
+	left:7px;
+	top:6px;
+	width:169px;
+	height:116px;
+	z-index:1;
+}
+#TopLinksDiv {
+	position:absolute;
+	left:177px;
+	top:6px;
+	width:902px;
+	height:173px;
+	z-index:2;
+}
+#navDiv {
+	position:absolute;
+	left:7px;
+	top:127px;
+	width:165px;
+	height:529px;
+	z-index:3;
+}
+#img1Div {
+	position:absolute;
+	left:236px;
+	top:206px;
+	width:260px;
+	height:223px;
+	z-index:4;
+}
+#img2Div {
+	position:absolute;
+	left:512px;
+	top:205px;
+	width:271px;
+	height:227px;
+	z-index:5;
+}
+</style>
+</head>
+
+<body>
+<div id="logoDiv">Logo</div>
+<div id="TopLinksDiv">Top Nav</div>
+<div id="navDiv">
+  <p>Nav.</p>
+  <p>&nbsp;</p>
+  <p>Link 1</p>
+  <p>&nbsp;</p>
+  <p>Link2 </p>
+  <p>Link3</p>
+  <p>Link4 </p>
+  <p>&nbsp;</p>
+</div>
+<div id="img1Div"><!-- TemplateBeginEditable name="image1Editable" -->image1Editable<!-- TemplateEndEditable --></div>
+<div id="img2Div"><!-- TemplateBeginEditable name="image2Editable" -->image2Editable<!-- TemplateEndEditable --></div>
+</body>
+</html>
